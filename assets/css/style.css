@@ -910,20 +910,21 @@ display: none;
     }
     .h-left .img-back {
         top: 30px;
-        height: 360px;
+        height: 324px;
         width: 100%;
         left: 0;
     }
     .h-left .img-fluid {
         width: 340px;
-        height: 360px;
+        object-fit: cover;
+        height: 330px;
     }
     .h-left {
         display: flex;
         justify-content: center;
     }
     .c-img img {
-        width: 400px;
+        width: 336px !important;
         object-fit: cover;
         object-position: center center;
         height: 290px;
