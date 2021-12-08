@@ -880,10 +880,11 @@ display: none;
         margin-top: 100px;
     }
     .slider .swip-content{
-        font-size: 15px;
+        font-size: 14px;
+        padding: 20px 0;
     }
     .slider .swip-title{
-        font-size: 35px;
+        font-size: 30px;
         line-height: 45px;
     }
     .who{
@@ -929,7 +930,6 @@ display: none;
         border-radius: 8px;
     }
     .b-right .banner-img {
-        margin-top: 20px;
         width: 92% !important; 
         height: 450px !important;
     }
