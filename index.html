@@ -12,31 +12,31 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 </head>
 
-<body>
+<body id='body'>
+
     <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-4 d-flex align-items-center">
                     <div class="header-left">
-                        <a href="#"> <img src="assets/images/Logo.png" alt="logo"> </a>
+                        <a href="index.html"> <img src="assets/images/Logo.png" alt="logo" /> </a>
                     </div>
                 </div>
                 <div class="col-4 d-flex justify-content-center align-items-center">
                     <div class="h-average">
                         <nav>
                             <ul>
-                                <li><a class="h-link current_page_item" href="index.html"> Home </a></li>
-                                <li><a class="h-link" href="about.html"> About </a></li>
-                                <li><a class="h-link" href="services.html"> Service </a></li>
-                                <li><a href="#"> Pages <i class="fas fa-angle-down"></i> </a>
-                            <ul>
-                                <li><a href="#"> Detail Service </a></li>
-                                <li><a href="#"> Projects </a></li>
-                                <li><a href="#"> Detail Project </a></li>
-                                <li><a href="#"> Team </a></li>
-                            </ul>
+                                <li><a class="h-link" href="index.html"> Home </a></li>
+                                <li><a class="h-link" href="about.html "> About </a></li>
+                                <li><a class="h-link" href="services.html"> Services </a></li>
+                                <li><a href="pages.html"> Pages <i class="fas fa-angle-down"></i> </a>
+                                    <ul>
+                                        <li><a href="./aurWork.html"> Aur Works </a></li>
+                                        <li><a href="./galary.html"> Galary </a></li>
+                                        <li><a href="./our2.html"> Our Innovative People </a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="#"> Blog <i class="fas fa-angle-down"></i> </a></li>
+                                <li><a href="./blog.html"> Blog </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -47,9 +47,9 @@
                     </div>
                 </div>
             </div>
-             <div class="open-menu">
-            <i class="fas fa-bars"></i>
-        </div>
+            <div class="open-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
@@ -57,7 +57,25 @@
     </div>
 
     <main>
-        <div class="banner">
+
+        <div class="mobil-menu">
+            <div class="mobil-container">
+                <nav>
+                    <ul class="listMobil">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html"> About </a></li>
+                        <li><a href="services.html"> Services </a></li>
+                        <li><a href="aurWork.html">Aur Works</a></li>
+                        <li><a href="galary.html"> Galary </a></li>
+                        <li><a href="our2.html"> Our Innovative People</a></li>
+                        <li><a href="blog.html"> Blog </a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 bl-col col-12 d-flex align-items-center">
@@ -69,7 +87,7 @@
                             <p class="b-content"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
                                 nostrud amet. </p>
-                            <a href="#" class="global-btn"> ÇALIŞMALARIMIZ </a>
+                            <a href="./aurWork.html" class="global-btn"> ÇALIŞMALARIMIZ </a>
                         </div>
                     </div>
                     <div class="col-lg-7 br-col d-flex justify-content-end col-12">
@@ -80,9 +98,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="hakkimizda">
+        <section id="about" class="hakkimizda">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -90,7 +108,7 @@
                             <img class="img-fluid"
                                 src="./assets/images/porch-in-mediterranean-style-with-vintage-furnitur-2021-08-27-09-28-24-utc 1.png"
                                 alt="">
-                                <div class="img-back"></div>
+                            <div class="img-back"></div>
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex align-items-center">
@@ -106,9 +124,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="calisma">
+        <section class="calisma">
             <div class="container">
                 <div class="heading-1">
                     <span class="top">
@@ -121,61 +139,64 @@
                 <div class="row d-flex  justify-content-between">
                     <div class="col-lg-5 col-md-6">
                         <div class="c-img">
-                           <a href="#">
-                            <img src="./assets/images/dining-room-with-rustic-furniture-2021-08-26-15-43-15-utc 1.png"
-                            alt="">
-                           </a>
-                             <div class="hover-anime1">
-                        <a href="#"> River Oaks Classics </a>
-                        </div>
+                            <a href="#">
+                                <img src="./assets/images/dining-room-with-rustic-furniture-2021-08-26-15-43-15-utc 1.png"
+                                    alt="">
+                            </a>
+                            <div class="hover-anime1">
+                                <a href="#"> River Oaks Classics </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6">
                         <div class="c-img">
-                           <a href="#">
-                            <img src="./assets/images/bedroom-with-white-scandinavian-furniture-2021-08-26-15-45-38-utc 1.png"
-                            alt="">
-                           </a>
-                             <div class="hover-anime1">
-                        <a href="#"> River Oaks Classics </a>
-                        </div>
+                            <a href="#">
+                                <img src="./assets/images/bedroom-with-white-scandinavian-furniture-2021-08-26-15-45-38-utc 1.png"
+                                    alt="">
+                            </a>
+                            <div class="hover-anime1">
+                                <a href="#"> River Oaks Classics </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="c-img">
                             <a href="#">
-                                <img src="./assets/images/bedroom-with-wood-furniture-2021-08-26-15-44-19-utc2.png" alt="">
+                                <img src="https://images.pexels.com/photos/2121120/pexels-photo-2121120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="">
                             </a>
-                              <div class="hover-anime1">
-                        <a href="#"> River Oaks Classics </a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="c-img">
-                         <a href="#">
-                            <img  src="./assets/images/bedroom-with-wood-furniture-2021-08-26-15-44-19-utc2.png" alt="">
-                         </a>
-                           <div class="hover-anime1">
-                        <a href="#"> River Oaks Classics </a>
-                        </div>
+                            <div class="hover-anime1">
+                                <a href="#"> River Oaks Classics </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="c-img">
-                          <a href="#">
-                            <img  src="./assets/images/bedroom-with-wood-furniture-2021-08-26-15-44-19-utc2.png" alt="">
-                          </a>
-                          <div class="hover-anime1">
-                        <a href="#"> River Oaks Classics </a>
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="">
+                            </a>
+                            <div class="hover-anime1">
+                                <a href="#"> River Oaks Classics </a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="c-img">
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/1743227/pexels-photo-1743227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="">
+                            </a>
+                            <div class="hover-anime1">
+                                <a href="#"> River Oaks Classics </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="who">
+        <section class="who">
             <div class="container">
                 <div class="heading-2">
                     <span class="top"> Öne Çıkanlar </span>
@@ -211,9 +232,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="card-area">
+        <section class="card-area">
             <div class="container">
                 <div class="heading-3">
                     <span class="top"> Our Services </span>
@@ -254,9 +275,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="slider">
+        <section class="slider">
             <div class="container">
                 <div class="row">
                     <div class="swiper mySwiper">
@@ -328,9 +349,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="blog">
+        <section class="blog">
             <div class="container">
                 <div class="heading-4 col-md-6 d-flex justify-content-between align-items-end">
                     <div class="bl-left">
@@ -342,65 +363,72 @@
                         </h4>
                     </div>
                     <div class="bl-right">
-                        <a href="#" class="global-btn"> Tümünü Gör </a>
+                        <a href="./blog.html" class="global-btn"> Tümünü Gör </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="blog-item">
-                            <img src="./assets/images/ImageBlog.png" alt="blog">
+                            <img src="https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                alt="blog">
                             <span> July 4, 2021 - </span>
                             <a href="#"> 0 Comments </a>
                             <p class="title-p">Interior Designer vs. Interior Decorator</p>
-                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat</p>
-                       <a href="#" class="blog-btn"> Read More </a>
+                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat</p>
+                            <a href="#" class="blog-btn"> Read More </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="blog-item">
-                            <img src="./assets/images/ImageBlog.png" alt="blog">
+                            <img src="https://images.pexels.com/photos/1543447/pexels-photo-1543447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                alt="blog">
                             <span> July 4, 2021 - </span>
                             <a href="#"> 0 Comments </a>
                             <p class="title-p">Best interior Design for work from home</p>
-                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat</p>
-                       <a href="#" class="blog-btn"> Read More </a>
+                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat</p>
+                            <a href="#" class="blog-btn"> Read More </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="blog-item">
-                            <img src="./assets/images/ImageBlog.png" alt="blog">
+                            <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                alt="blog">
                             <span> July 4, 2021 - </span>
                             <a href="#"> 0 Comments </a>
                             <p class="title-p">16 Ways to Decorate With Leather Furniture</p>
-                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat</p>
-                       <a href="#" class="blog-btn"> Read More </a>
+                            <p class="title-alt">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat</p>
+                            <a href="#" class="blog-btn"> Read More </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="join">
+        <section class="join">
             <div class="container">
                 <div class="row d-flex">
                     <div class="col-lg-5 d-flex align-items-center">
                         <div class="j-left">
                             <span class="top"> Subscribe Now </span>
                             <h3 class="title"> Join Newsletter </h3>
-                            <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                            <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit
+                                officia consequat duis enim velit mollit. </p>
                         </div>
                     </div>
                     <div class="col-lg-7 d-flex justify-content-end align-items-center">
                         <div class="j-right">
-                     <form action="">
-                         <input type="email" placeholder="Enter your mail" required>
-                         <button type="submit" class="global-btn"> Subscribe Now </button>
-                     </form>
+                            <form action="">
+                                <input type="email" placeholder="Enter your mail" required>
+                                <button type="submit" class="global-btn"> Subscribe Now </button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer id="footer">
@@ -410,17 +438,19 @@
                     <div class="footer-top">
                         <img src="./assets/images/Logo.png" alt="logo">
                         <ul>
-                            <li><a href="#"> Home </a></li>
-                            <li><a href="#"> About </a></li>
-                            <li><a href="#"> Service </a></li>
-                            <li><a href="#"> Pages </a></li>
-                            <li><a href="#"> Blog </a></li>
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="about.html"> About </a></li>
+                            <li><a href="services.html"> Services </a></li>
+                            <li><a href="pages.html"> Pages </a></li>
+                            <li><a href="aurWork.html"> Aur Works </a></li>
+                            <li><a href="galary.html"> Galary </a></li>
+                            <li><a href="blog.html"> Blog </a></li>
                         </ul>
                         <div class="sosial d-flex">
-                           <a class="sos-link" href="#"> <i class="fab fa-facebook-f"></i> </a>
-                           <a class="sos-link" href="#"> <i class="fab fa-instagram"></i> </a>
-                           <a class="sos-link" href="#"> <i class="fab fa-youtube"></i> </a>
-                           <a class="sos-link" href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            <a class="sos-link" href="#"> <i class="fab fa-facebook-f"></i> </a>
+                            <a class="sos-link" href="#"> <i class="fab fa-instagram"></i> </a>
+                            <a class="sos-link" href="#"> <i class="fab fa-youtube"></i> </a>
+                            <a class="sos-link" href="#"> <i class="fab fa-linkedin-in"></i> </a>
                         </div>
                     </div>
                 </div>
