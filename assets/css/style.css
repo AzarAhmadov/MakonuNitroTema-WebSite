@@ -1870,6 +1870,11 @@ body.active {
         margin-top: 10px;
     }
 
+    .who-item p br {
+        display: none;
+
+    }
+
     .join {
         padding-top: 50px;
     }
